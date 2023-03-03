@@ -1,15 +1,14 @@
 html,
-body {
-  height: 100%;
-}
-
-body {
-  background: black;
-  font-family: "SF Mono", SFMono-Regular, ui-monospace, "DejaVu Sans Mono", Menlo, Consolas, monospace;
-}
 
 * {
   touch-action: none;
+  margin: 0;
+}
+
+body {
+  height: 100%;
+  background: black;
+  font-family: "SF Mono", SFMono-Regular, ui-monospace, "DejaVu Sans Mono", Menlo, Consolas, monospace;
 }
 
 .container {
