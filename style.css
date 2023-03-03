@@ -75,7 +75,7 @@ body {
 .countdown--wide {
   width: 100%;
   height: 100%;
-  font-size: 48vmin;
+  font-size: 24vmin;
   border-radius: 0;
 }
 .countdown__fill {
