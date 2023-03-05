@@ -85,7 +85,7 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  background: #FF5722;
+  background: radial-gradient(50% 50% at 50% 50%, #EC6337 0%, #F26D43 52.04%, #F49034 100%);
   opacity: 1;
 }
 .countdown__digit {
