@@ -23,14 +23,12 @@ body {
 
 .countdown {
   display: block;
-  width: 66vmin;
-  height: 66vmin;
+  width: 80vmin;
+  height: 80vmin;
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-weight: 400;
-  font-size: 4vmin;
   border-radius: 50%;
   overflow: hidden;
   cursor: pointer;
@@ -75,7 +73,9 @@ body {
 .countdown--wide {
   width: 100%;
   height: 100%;
-  font-size: 24vmin;
+  font-size: 16vmin;
+  padding-left: 0;
+  letter-spacing: 0;
   border-radius: 0;
 }
 .countdown__fill {
@@ -85,9 +85,24 @@ body {
   position: absolute;
   left: 0;
   bottom: 0;
-  background: radial-gradient(50% 50% at 50% 50%, #EC6337 0%, #F26D43 52.04%, #F49034 100%);
+  background: radial-gradient(50% 50% at 50% 50%, #EC6337 0%, #F26D43 66%, #F49034 100%);
   opacity: 1;
 }
+
+.countdown--wide .countdown__digit {
+  font-weight: bolder;
+  letter-spacing: .5em !important; 
+  padding-left: .5em !important;
+}
+
+.countdown .countdown__digit {
+  font-weight: lighter;
+/*  font-size: .75em;*/
+  letter-spacing: 4em;
+  padding-left: 4em;
+  color: #F49034 !important;
+}
+
 .countdown__digit {
   width: 100%;
   color: #FF5722;
